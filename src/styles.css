@@ -1,0 +1,11 @@
+.drop-zone {
+  border: 2px dashed #aaa;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  background: #f9f9f9;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.drop-zone.highlight { border-color: #28a745; background: #d4edda; }
+#file-name { margin-top: 12px; font-weight: bold; color: #155724; }

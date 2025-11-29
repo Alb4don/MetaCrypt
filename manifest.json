@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "MetaCrypt",
+  "version": "1.0",
+  "description": "Secure messaging with metadata protection",
+  "permissions": ["storage",
+    "activeTab",
+    "scripting"],
+  "host_permissions": ["https://twitter.com/*", "https://x.com/*", "https://web.whatsapp.com/*"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [{
+    "matches": ["https://twitter.com/*", "https://x.com/*", "https://web.whatsapp.com/*"],
+    "js": ["src/openpgp.min.js", "src/content.js"],
+    "css": ["src/styles.css"],
+    "run_at": "document_idle"
+  }],
+  "action": {
+    "default_popup": "src/popup.html"
+    
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; base-uri 'self'; form-action 'self'"
+  }
+}
