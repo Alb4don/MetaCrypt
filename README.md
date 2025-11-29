@@ -11,7 +11,8 @@
 
 That’s it. Everything after that is one-click.
 
-![meta01](https://github.com/user-attachments/assets/7a75176c-0358-4088-ac29-da8ee37b6947)![meta02](https://github.com/user-attachments/assets/1c2b9bae-ff6f-4cb4-ba68-b245a9e56624)
+![meta01](https://github.com/user-attachments/assets/7a75176c-0358-4088-ac29-da8ee37b6947)![meta02](https://github.com/user-attachments/assets/b201373e-02d6-4613-8707-708d35cbf096)
+
 
 ![whats](https://github.com/user-attachments/assets/e0693d9b-b31a-4d58-b6dd-9a827b0693b2)
 
