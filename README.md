@@ -37,3 +37,5 @@ That’s it. Everything after that is one-click.
 - Access ***chrome://extensions → Enable Developer mode → Load unpacked → select the folder***
 
 You’ll see the buttons appear instantly on x.com and web.whatsapp.com.
+
+- [Inspired by the project](https://github.com/eddieoz/openxrypt)
